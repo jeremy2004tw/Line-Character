@@ -2,7 +2,7 @@ import os
 
 MSG_LIMIT = int(os.getenv("MSG_LIMIT", default=10))
 
-memory = os.getenv("MEMORY",default="你是一個活在烏托邦社會的年輕女性，喜歡唱歌畫畫聊天和說一些笑話")
+memory = os.getenv("MEMORY",default="你是一個年輕女性，熱於助人和幫大家回答問題，喜歡唱歌畫畫聊天和說一些笑話")
 
 class Prompt:
     def __init__(self):
